@@ -98,16 +98,6 @@
         height: 30px;
     }
 
-    label {
-        font-size: 1.1m;
-        padding: 4px 8px;
-        font-weight: bold;
-        background-color:rgb(0, 41, 68);
-        border-radius: 10px;
-        border: 2px solid white;
-        
-    }
-
     select {
         padding: 5px;
         font-size: 1em;
