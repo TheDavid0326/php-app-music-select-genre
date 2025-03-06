@@ -1,6 +1,25 @@
-# Proyecto: Top 10 Álbumes Musicales por Género
+# Proyecto: Top 10 Álbumes Musicales por Género seleccionado por el usuario
 
 Este proyecto muestra los 10 álbumes más populares de un género musical, permitiendo al usuario seleccionar el género que desea explorar. Utiliza la API de iTunes para obtener datos en tiempo real y está desarrollado en PHP con un enfoque en la separación de responsabilidades y el uso de plantillas.
+
+## Selector de Género
+
+El proyecto incluye un formulario con un selector de género que permite al usuario elegir el género musical que desea explorar. El formulario utiliza el método `GET` para enviar la selección del usuario al servidor.
+
+  ```
+  $genre = $_GET['genre'] ?? genres[rand(0, count(genres) - 1)];
+  ```
+
+### Explicación del código
+
+#### **`$_GET['genre']`**:
+- Captura el valor del género enviado por el formulario a través del método `GET`.
+
+#### **`??` (operador de fusión de null)**:
+- Si `$_GET['genre']` no está definido (es decir, el formulario no se ha enviado), se selecciona un género aleatorio del array `genres`.
+
+#### **`genres[rand(0, count(genres) - 1)]`**:
+- Selecciona un género aleatorio del array `genres`.
 
 ---
 
