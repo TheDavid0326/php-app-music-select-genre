@@ -5,7 +5,7 @@ Este proyecto muestra los 10 álbumes más populares de un género musical, perm
 ---
 
 <div align="center">
-  <img src="https://i.imgur.com/BXefWY5.jpeg" width="600">
+  <img src="https://i.imgur.com/BXefWY5.jpeg" width="500">
 </div>
 
 ---
